@@ -308,9 +308,87 @@ U 1 1 5D46786E
 P 10100 1950
 F 0 "J6" H 10150 2467 50  0000 C CNN
 F 1 "Conn_02x07_Top_Bottom" H 10150 2376 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x07_P2.54mm_Vertical" H 10100 1950 50  0001 C CNN
+F 2 "custom:PinHeader_2x07Custom" H 10100 1950 50  0001 C CNN
 F 3 "~" H 10100 1950 50  0001 C CNN
 	1    10100 1950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x28_Male J7
+U 1 1 5D57E484
+P 3300 2600
+F 0 "J7" H 3273 2480 50  0000 R CNN
+F 1 "Conn_01x28_Male" H 3273 2571 50  0000 R CNN
+F 2 "custom:Heade2.54m_28pin" H 3300 2600 50  0001 C CNN
+F 3 "~" H 3300 2600 50  0001 C CNN
+	1    3300 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female J8
+U 1 1 5D57E64C
+P 2850 4700
+F 0 "J8" H 2877 4676 50  0000 L CNN
+F 1 "Conn_01x08_Female" H 2877 4585 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 2850 4700 50  0001 C CNN
+F 3 "~" H 2850 4700 50  0001 C CNN
+	1    2850 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1200 2600 1200
+Wire Wire Line
+	3100 1300 2600 1300
+Wire Wire Line
+	3100 1400 2600 1400
+Wire Wire Line
+	2600 1500 3100 1500
+Wire Wire Line
+	3100 1600 2600 1600
+Wire Wire Line
+	2600 1700 3100 1700
+Wire Wire Line
+	3100 1800 2600 1800
+Wire Wire Line
+	3100 1900 2600 1900
+Wire Wire Line
+	2600 2000 3100 2000
+Wire Wire Line
+	3100 2100 2600 2100
+Wire Wire Line
+	2600 2200 3100 2200
+Wire Wire Line
+	2600 2300 3100 2300
+Wire Wire Line
+	3100 2400 2600 2400
+Wire Wire Line
+	2600 2500 3100 2500
+Wire Wire Line
+	3100 2600 2600 2600
+Wire Wire Line
+	2600 2700 3100 2700
+Wire Wire Line
+	3100 2800 2600 2800
+Wire Wire Line
+	2600 2900 3100 2900
+Wire Wire Line
+	3100 3000 2600 3000
+Wire Wire Line
+	2600 3100 3100 3100
+Wire Wire Line
+	3100 3200 2600 3200
+Wire Wire Line
+	2600 3300 3100 3300
+Wire Wire Line
+	3100 3400 2600 3400
+Wire Wire Line
+	3100 3500 2600 3500
+Wire Wire Line
+	2600 3600 3100 3600
+Wire Wire Line
+	3100 3700 2600 3700
+Wire Wire Line
+	2600 3800 3100 3800
+Wire Wire Line
+	2600 3900 3100 3900
 $EndSCHEMATC
