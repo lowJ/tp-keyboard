@@ -316,12 +316,12 @@ $EndComp
 $Comp
 L Connector:Conn_01x28_Male J7
 U 1 1 5D57E484
-P 2800 2600
-F 0 "J7" H 2773 2480 50  0000 R CNN
-F 1 "Conn_01x28_Male" H 2773 2571 50  0000 R CNN
-F 2 "custom:Heade2.54m_28pin" H 2800 2600 50  0001 C CNN
-F 3 "~" H 2800 2600 50  0001 C CNN
-	1    2800 2600
+P 3300 2600
+F 0 "J7" H 3273 2480 50  0000 R CNN
+F 1 "Conn_01x28_Male" H 3273 2571 50  0000 R CNN
+F 2 "custom:Heade2.54m_28pin" H 3300 2600 50  0001 C CNN
+F 3 "~" H 3300 2600 50  0001 C CNN
+	1    3300 2600
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -335,4 +335,75 @@ F 3 "~" H 2850 4700 50  0001 C CNN
 	1    2850 4700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3100 1200 2600 1200
+Wire Wire Line
+	3100 1300 2600 1300
+Wire Wire Line
+	3100 1400 2600 1400
+Wire Wire Line
+	2600 1500 3100 1500
+Wire Wire Line
+	3100 1600 2600 1600
+Wire Wire Line
+	2600 1700 3100 1700
+Wire Wire Line
+	3100 1800 2600 1800
+Wire Wire Line
+	3100 1900 2600 1900
+Wire Wire Line
+	2600 2000 3100 2000
+Wire Wire Line
+	3100 2100 2600 2100
+Wire Wire Line
+	2600 2200 3100 2200
+Wire Wire Line
+	2600 2300 3100 2300
+Wire Wire Line
+	3100 2400 2600 2400
+Wire Wire Line
+	2600 2500 3100 2500
+Wire Wire Line
+	3100 2600 2600 2600
+Wire Wire Line
+	2600 2700 3100 2700
+Wire Wire Line
+	3100 2800 2600 2800
+Wire Wire Line
+	2600 2900 3100 2900
+Wire Wire Line
+	3100 3000 2600 3000
+Wire Wire Line
+	2600 3100 3100 3100
+Wire Wire Line
+	3100 3200 2600 3200
+Wire Wire Line
+	2600 3300 3100 3300
+Wire Wire Line
+	3100 3400 2600 3400
+Wire Wire Line
+	3100 3500 2600 3500
+Wire Wire Line
+	2600 3600 3100 3600
+Wire Wire Line
+	3100 3700 2600 3700
+Wire Wire Line
+	2600 3800 3100 3800
+Wire Wire Line
+	2600 3900 3100 3900
+$Comp
+L Connector:Conn_01x01_Male J9
+U 1 1 5D5AAF5C
+P 9950 3500
+F 0 "J9" H 9923 3430 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 9923 3521 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9950 3500 50  0001 C CNN
+F 3 "~" H 9950 3500 50  0001 C CNN
+	1    9950 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8950 3650 9750 3650
+Wire Wire Line
+	9750 3650 9750 3500
 $EndSCHEMATC
