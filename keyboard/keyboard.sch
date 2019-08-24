@@ -26,272 +26,6 @@ F 3 "~" H 2400 2600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L teensy:Teensy3.2 U1
-U 1 1 5D40AA67
-P 7950 2950
-F 0 "U1" H 7950 4537 60  0000 C CNN
-F 1 "Teensy3.2" H 7950 4431 60  0000 C CNN
-F 2 "teensy:Teensy30_31_32_LC" H 7950 2150 60  0001 C CNN
-F 3 "" H 7950 2150 60  0000 C CNN
-	1    7950 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x14_Male J4
-U 1 1 5D427D0E
-P 5550 2250
-F 0 "J4" H 5656 3028 50  0000 C CNN
-F 1 "Conn_01x14_Male" H 5656 2937 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H 5550 2250 50  0001 C CNN
-F 3 "~" H 5550 2250 50  0001 C CNN
-	1    5550 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6950 1650 5750 1650
-Wire Wire Line
-	6950 1750 5750 1750
-Wire Wire Line
-	6950 1850 5750 1850
-Wire Wire Line
-	6950 1950 5750 1950
-Wire Wire Line
-	6950 2050 5750 2050
-Wire Wire Line
-	6950 2150 5750 2150
-Wire Wire Line
-	6950 2250 5750 2250
-Wire Wire Line
-	6950 2350 5750 2350
-Wire Wire Line
-	6950 2450 5750 2450
-Wire Wire Line
-	6950 2550 5750 2550
-Wire Wire Line
-	5750 2650 6950 2650
-Wire Wire Line
-	5750 2750 6950 2750
-Wire Wire Line
-	5750 2850 6950 2850
-Wire Wire Line
-	5750 2950 6950 2950
-Wire Wire Line
-	5500 3050 6950 3050
-Wire Wire Line
-	5500 3150 6950 3150
-Wire Wire Line
-	5500 3250 6950 3250
-Wire Wire Line
-	5500 3350 6950 3350
-Wire Wire Line
-	5500 3450 6950 3450
-$Comp
-L Connector:Conn_01x14_Male J5
-U 1 1 5D42ACFB
-P 7250 5650
-F 0 "J5" V 7178 5577 50  0000 C CNN
-F 1 "Conn_01x14_Male" V 7087 5577 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H 7250 5650 50  0001 C CNN
-F 3 "~" H 7250 5650 50  0001 C CNN
-	1    7250 5650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:Conn_01x05_Male J3
-U 1 1 5D42B285
-P 5300 3250
-F 0 "J3" H 4900 3450 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 4950 3350 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 5300 3250 50  0001 C CNN
-F 3 "~" H 5300 3250 50  0001 C CNN
-	1    5300 3250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7350 4550 7350 5450
-Wire Wire Line
-	7250 4650 7250 5450
-Wire Wire Line
-	7150 4750 7150 5450
-Wire Wire Line
-	7050 4850 7050 5450
-Wire Wire Line
-	6950 4950 6950 5450
-Wire Wire Line
-	6850 5050 6850 5450
-Wire Wire Line
-	6750 5450 6750 5150
-Wire Wire Line
-	6650 5250 6650 5450
-Wire Wire Line
-	8950 4250 8950 4550
-Wire Wire Line
-	8950 4550 7450 4550
-Wire Wire Line
-	7450 4550 7450 5450
-Wire Wire Line
-	8950 4150 9050 4150
-Wire Wire Line
-	9050 4150 9050 4650
-Wire Wire Line
-	9050 4650 7550 4650
-Wire Wire Line
-	7550 4650 7550 5450
-Wire Wire Line
-	8950 4050 9150 4050
-Wire Wire Line
-	9150 4050 9150 4750
-Wire Wire Line
-	9150 4750 7650 4750
-Wire Wire Line
-	7650 4750 7650 5450
-Wire Wire Line
-	8950 3950 9250 3950
-Wire Wire Line
-	9250 3950 9250 4850
-Wire Wire Line
-	9250 4850 7750 4850
-Wire Wire Line
-	7750 4850 7750 5450
-Wire Wire Line
-	8950 3850 9350 3850
-Wire Wire Line
-	9350 3850 9350 4950
-Wire Wire Line
-	9350 4950 7850 4950
-Wire Wire Line
-	7850 4950 7850 5450
-Wire Wire Line
-	8950 3750 9450 3750
-Wire Wire Line
-	9450 3750 9450 5050
-Wire Wire Line
-	9450 5050 7950 5050
-Wire Wire Line
-	7950 5050 7950 5450
-Wire Wire Line
-	7350 4550 6950 4550
-Wire Wire Line
-	6950 4550 6950 4250
-Wire Wire Line
-	6950 4150 6850 4150
-Wire Wire Line
-	6850 4150 6850 4650
-Wire Wire Line
-	6850 4650 7250 4650
-Wire Wire Line
-	6950 4050 6750 4050
-Wire Wire Line
-	6750 4050 6750 4750
-Wire Wire Line
-	6750 4750 7150 4750
-Wire Wire Line
-	7050 4850 6650 4850
-Wire Wire Line
-	6650 4850 6650 3950
-Wire Wire Line
-	6650 3950 6950 3950
-Wire Wire Line
-	6950 3850 6550 3850
-Wire Wire Line
-	6550 3850 6550 4950
-Wire Wire Line
-	6550 4950 6950 4950
-Wire Wire Line
-	6850 5050 6450 5050
-Wire Wire Line
-	6450 5050 6450 3750
-Wire Wire Line
-	6450 3750 6950 3750
-Wire Wire Line
-	6950 3650 6350 3650
-Wire Wire Line
-	6350 3650 6350 5150
-Wire Wire Line
-	6350 5150 6750 5150
-Wire Wire Line
-	6250 5250 6250 3550
-Wire Wire Line
-	6250 3550 6950 3550
-Wire Wire Line
-	6250 5250 6650 5250
-Wire Wire Line
-	8950 3050 11050 3050
-Wire Wire Line
-	11050 3050 11050 1650
-Wire Wire Line
-	11050 1650 10400 1650
-Wire Wire Line
-	8950 2950 10950 2950
-Wire Wire Line
-	10950 2950 10950 1750
-Wire Wire Line
-	10950 1750 10400 1750
-Wire Wire Line
-	8950 2850 10850 2850
-Wire Wire Line
-	10850 2850 10850 1850
-Wire Wire Line
-	10850 1850 10400 1850
-Wire Wire Line
-	8950 2750 10750 2750
-Wire Wire Line
-	10750 2750 10750 1950
-Wire Wire Line
-	10750 1950 10400 1950
-Wire Wire Line
-	8950 2650 10650 2650
-Wire Wire Line
-	10650 2650 10650 2050
-Wire Wire Line
-	10650 2050 10400 2050
-Wire Wire Line
-	8950 2550 10550 2550
-Wire Wire Line
-	10550 2550 10550 2150
-Wire Wire Line
-	10550 2150 10400 2150
-Wire Wire Line
-	8950 2450 10400 2450
-Wire Wire Line
-	10400 2450 10400 2250
-Wire Wire Line
-	8950 2350 9900 2350
-Wire Wire Line
-	9900 2350 9900 2250
-Wire Wire Line
-	8950 2250 9800 2250
-Wire Wire Line
-	9800 2250 9800 2150
-Wire Wire Line
-	9800 2150 9900 2150
-Wire Wire Line
-	8950 2150 9700 2150
-Wire Wire Line
-	9700 2150 9700 2050
-Wire Wire Line
-	9700 2050 9900 2050
-Wire Wire Line
-	8950 2050 9600 2050
-Wire Wire Line
-	9600 2050 9600 1950
-Wire Wire Line
-	9600 1950 9900 1950
-Wire Wire Line
-	8950 1950 9500 1950
-Wire Wire Line
-	9500 1950 9500 1850
-Wire Wire Line
-	9500 1850 9900 1850
-Text Label 8950 3150 0    50   ~ 0
-GND_PAD
-Text Label 9900 1750 2    50   ~ 0
-GND_PAD
-Text Label 8950 3250 0    50   ~ 0
-A_12
-Text Label 9900 1650 2    50   ~ 0
-A_12
-$Comp
 L Connector:Conn_01x08_Male J2
 U 1 1 5D4645E8
 P 2450 4700
@@ -300,17 +34,6 @@ F 1 "Conn_01x08_Male" H 2556 5087 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 2450 4700 50  0001 C CNN
 F 3 "~" H 2450 4700 50  0001 C CNN
 	1    2450 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x07_Top_Bottom J6
-U 1 1 5D46786E
-P 10100 1950
-F 0 "J6" H 10150 2467 50  0000 C CNN
-F 1 "Conn_02x07_Top_Bottom" H 10150 2376 50  0000 C CNN
-F 2 "custom:PinHeader_2x07Custom" H 10100 1950 50  0001 C CNN
-F 3 "~" H 10100 1950 50  0001 C CNN
-	1    10100 1950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -392,33 +115,138 @@ Wire Wire Line
 Wire Wire Line
 	2600 3900 3100 3900
 $Comp
-L Connector:Conn_01x01_Male J9
-U 1 1 5D5AAF5C
-P 9950 3650
-F 0 "J9" H 9923 3580 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 9923 3671 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9950 3650 50  0001 C CNN
-F 3 "~" H 9950 3650 50  0001 C CNN
-	1    9950 3650
-	-1   0    0    1   
+L teensy:Teensy++2.0 U?
+U 1 1 5D60E247
+P 7650 2800
+F 0 "U?" H 7650 4237 60  0000 C CNN
+F 1 "Teensy++2.0" H 7650 4131 60  0000 C CNN
+F 2 "" H 7750 1950 60  0000 C CNN
+F 3 "" H 7750 1950 60  0000 C CNN
+	1    7650 2800
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8950 3650 9750 3650
 $Comp
-L Connector:Conn_01x03_Male J10
-U 1 1 5D5BD521
-P 9450 3450
-F 0 "J10" H 9423 3380 50  0000 R CNN
-F 1 "Conn_01x03_Male" H 9423 3471 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 9450 3450 50  0001 C CNN
-F 3 "~" H 9450 3450 50  0001 C CNN
-	1    9450 3450
+L Connector:Conn_01x20_Male J?
+U 1 1 5D6211A9
+P 5550 2550
+F 0 "J?" H 5656 3628 50  0000 C CNN
+F 1 "Conn_01x20_Male" H 5656 3537 50  0000 C CNN
+F 2 "" H 5550 2550 50  0001 C CNN
+F 3 "~" H 5550 2550 50  0001 C CNN
+	1    5550 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2950 6950 2950
+Wire Wire Line
+	5750 2850 6950 2850
+Wire Wire Line
+	5750 2750 6950 2750
+Wire Wire Line
+	5750 2650 6950 2650
+Wire Wire Line
+	5750 2550 6950 2550
+Wire Wire Line
+	5750 2450 6950 2450
+Wire Wire Line
+	5750 2350 6950 2350
+Wire Wire Line
+	5750 2250 6950 2250
+Wire Wire Line
+	5750 2150 6950 2150
+Wire Wire Line
+	5750 2050 6950 2050
+Wire Wire Line
+	5750 1950 6950 1950
+Wire Wire Line
+	5750 1850 6950 1850
+Wire Wire Line
+	5750 1750 6950 1750
+Wire Wire Line
+	5750 1650 6950 1650
+Wire Wire Line
+	6950 3050 5750 3050
+Wire Wire Line
+	6950 3150 5750 3150
+Wire Wire Line
+	6950 3250 5750 3250
+Wire Wire Line
+	6950 3350 5750 3350
+Wire Wire Line
+	6950 3450 5750 3450
+Wire Wire Line
+	8350 2850 9050 2850
+Wire Wire Line
+	8350 2950 9050 2950
+Wire Wire Line
+	8350 3050 9050 3050
+Wire Wire Line
+	8350 2550 9050 2550
+Wire Wire Line
+	8350 2650 9050 2650
+Wire Wire Line
+	8350 2750 9050 2750
+Wire Wire Line
+	8350 3450 9050 3450
+Wire Wire Line
+	8350 3550 9050 3550
+Wire Wire Line
+	8350 3650 9050 3650
+Wire Wire Line
+	8350 3150 9050 3150
+Wire Wire Line
+	8350 3250 9050 3250
+Wire Wire Line
+	8350 3350 9050 3350
+Wire Wire Line
+	8350 3950 9050 3950
+Wire Wire Line
+	8350 4050 9050 4050
+Wire Wire Line
+	8350 4150 9050 4150
+Wire Wire Line
+	8350 3750 9050 3750
+Wire Wire Line
+	8350 3850 9050 3850
+Wire Wire Line
+	6950 4150 6950 4350
+Wire Wire Line
+	6950 4350 8350 4350
+Wire Wire Line
+	8350 4350 8350 4250
+Wire Wire Line
+	8350 4250 9050 4250
+Wire Wire Line
+	6950 4050 6850 4050
+Wire Wire Line
+	6850 4050 6850 4450
+Wire Wire Line
+	6850 4450 8450 4450
+Wire Wire Line
+	8450 4450 8450 4350
+Wire Wire Line
+	8450 4350 9050 4350
+Wire Wire Line
+	6950 3950 6750 3950
+Wire Wire Line
+	6750 3950 6750 4550
+Wire Wire Line
+	6750 4550 8550 4550
+Wire Wire Line
+	8550 4550 8550 4450
+Wire Wire Line
+	8550 4450 9050 4450
+$Comp
+L Connector:Conn_01x20_Male J?
+U 1 1 5D695126
+P 9250 3550
+F 0 "J?" H 9223 3430 50  0000 R CNN
+F 1 "Conn_01x20_Male" H 9223 3521 50  0000 R CNN
+F 2 "" H 9250 3550 50  0001 C CNN
+F 3 "~" H 9250 3550 50  0001 C CNN
+	1    9250 3550
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9250 3350 8950 3350
-Wire Wire Line
-	8950 3450 9250 3450
-Wire Wire Line
-	9250 3550 8950 3550
+	6950 3550 5750 3550
 $EndSCHEMATC

@@ -394,16 +394,31 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x01_Male J9
 U 1 1 5D5AAF5C
-P 9950 3500
-F 0 "J9" H 9923 3430 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 9923 3521 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9950 3500 50  0001 C CNN
-F 3 "~" H 9950 3500 50  0001 C CNN
-	1    9950 3500
+P 9950 3650
+F 0 "J9" H 9923 3580 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 9923 3671 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9950 3650 50  0001 C CNN
+F 3 "~" H 9950 3650 50  0001 C CNN
+	1    9950 3650
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	8950 3650 9750 3650
+$Comp
+L Connector:Conn_01x03_Male J10
+U 1 1 5D5BD521
+P 9450 3450
+F 0 "J10" H 9423 3380 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 9423 3471 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 9450 3450 50  0001 C CNN
+F 3 "~" H 9450 3450 50  0001 C CNN
+	1    9450 3450
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	9750 3650 9750 3500
+	9250 3350 8950 3350
+Wire Wire Line
+	8950 3450 9250 3450
+Wire Wire Line
+	9250 3550 8950 3550
 $EndSCHEMATC
