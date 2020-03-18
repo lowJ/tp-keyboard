@@ -3,7 +3,7 @@ Goal: Create a desktop usb keyboard using a keyboard extracted from a lenovo thi
 
 Process:
 
-I am going to use a teensy ++ 2.0 as the processor along with qmk, the firmware for the keyboard. In order to figure out wiring , I am creating a break out board for a teensy and a 28 pin ffc connector.
+I am going to use a teensy ++ 2.0 as the processor along with qmk, the firmware for the keyboard. In order to figure out wiring , I am creating a break out board for a teensy and a 30(28pins actually used, i think....) pin ffc connector.
 
 ![alt text](https://i.imgur.com/eAW1w8l.jpg?1)
 
@@ -22,7 +22,7 @@ Clock pin needs to connect to PD2 and data pin needs to connect to PD5 of the te
 (add)
 
 Keyboard:
-The keyboard has a 28 pin ffc (26 pins are actually used) connected to it. I thought it was safe to assume that the the connections of the ffc were the rows and columns for the keyboard matrix (article below). They L420 keyboard has a total of 84 keys (not including the mouse buttons) so that means there are around 10 cols and 10 rows for the matrix. 
+The keyboard has a 30 pin ffc (28 pins are actually used) connected to it. I thought it was safe to assume that the the connections of the ffc were the rows and columns for the keyboard matrix (article below). They L420 keyboard has a total of 84 keys (not including the mouse buttons) so that means there are around 10 cols and 10 rows for the matrix. 
 
 
 Helpful resources.
