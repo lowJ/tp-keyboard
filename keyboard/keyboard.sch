@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x28_Female J1
-U 1 1 5D3FD40F
-P 2400 2600
-F 0 "J1" H 2427 2576 50  0000 L CNN
-F 1 "Conn_01x28_Female" H 2427 2485 50  0000 L CNN
-F 2 "custom:Con_FFC_28_ALT" H 2400 2600 50  0001 C CNN
-F 3 "~" H 2400 2600 50  0001 C CNN
-	1    2400 2600
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector:Conn_01x08_Male J2
 U 1 1 5D4645E8
 P 2450 4700
@@ -35,17 +24,6 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 2450 4700 50 
 F 3 "~" H 2450 4700 50  0001 C CNN
 	1    2450 4700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x28_Male J7
-U 1 1 5D57E484
-P 3300 2600
-F 0 "J7" H 3273 2480 50  0000 R CNN
-F 1 "Conn_01x28_Male" H 3273 2571 50  0000 R CNN
-F 2 "custom:Heade2.54m_28pin" H 3300 2600 50  0001 C CNN
-F 3 "~" H 3300 2600 50  0001 C CNN
-	1    3300 2600
-	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x08_Female J8
@@ -93,8 +71,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 2800 2600 2800
 Wire Wire Line
-	2600 2900 3100 2900
-Wire Wire Line
 	3100 3000 2600 3000
 Wire Wire Line
 	2600 3100 3100 3100
@@ -112,8 +88,6 @@ Wire Wire Line
 	3100 3700 2600 3700
 Wire Wire Line
 	2600 3800 3100 3800
-Wire Wire Line
-	2600 3900 3100 3900
 $Comp
 L teensy:Teensy++2.0 U1
 U 1 1 5D60E247
@@ -331,4 +305,34 @@ Wire Wire Line
 	9200 1600 8350 1600
 Wire Wire Line
 	8350 1600 8350 1650
+Wire Wire Line
+	2600 2900 3100 2900
+Wire Wire Line
+	3100 1100 2600 1100
+Wire Wire Line
+	2600 1000 3100 1000
+Wire Wire Line
+	3100 900  2600 900 
+$Comp
+L Connector:Conn_01x30_Female J1
+U 1 1 5E73DEF3
+P 2400 2400
+F 0 "J1" H 2294 675 50  0000 C CNN
+F 1 "Conn_01x30_Female" H 2294 766 50  0000 C CNN
+F 2 "custom:Con_FFC_30_2.0mm" H 2400 2400 50  0001 C CNN
+F 3 "~" H 2400 2400 50  0001 C CNN
+	1    2400 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x30_Male J7
+U 1 1 5E73DFB5
+P 3300 2400
+F 0 "J7" H 3273 2280 50  0000 R CNN
+F 1 "Conn_01x30_Male" H 3273 2371 50  0000 R CNN
+F 2 "custom:Heade2.54m_30pin_working" H 3300 2400 50  0001 C CNN
+F 3 "~" H 3300 2400 50  0001 C CNN
+	1    3300 2400
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
