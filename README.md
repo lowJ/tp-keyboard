@@ -5,9 +5,11 @@ Process:
 
 I am going to use a teensy ++ 2.0 as the processor along with qmk, the firmware for the keyboard. In order to figure out wiring , I am creating a break out board for a teensy and a 30(28pins actually used, i think....) pin ffc connector.
 
-![alt text](https://i.imgur.com/eAW1w8l.jpg?1)
+![alt text](https://i.imgur.com/ec5ur1S.jpg)
 
+![alt text](https://i.imgur.com/eAW1w8l.jpg?1)
 ![alt text](https://i.imgur.com/65hynYD.jpg?1)
+![alt text](https://i.imgur.com/iDEyUDH.jpg)
 
 
 
