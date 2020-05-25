@@ -481,7 +481,7 @@
   )
 
   (module custom:Con_FFC_30_2.0mm (layer F.Cu) (tedit 5E717F25) (tstamp 5ECBDD13)
-    (at 140.1 77.4 180)
+    (at 175.8 79.4 180)
     (descr "Through hole straight pin header, 1x14, 2.00mm pitch, single row")
     (tags "Through hole pin header THT 1x14 2.00mm single row")
     (path /5ECBEBDB)
