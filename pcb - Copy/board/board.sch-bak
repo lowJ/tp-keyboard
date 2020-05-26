@@ -30,7 +30,7 @@ U 1 1 5ECBEBDB
 P 6100 2900
 F 0 "J3" H 6072 2782 50  0000 R CNN
 F 1 "30 Pin FFC" H 6072 2873 50  0000 R CNN
-F 2 "custom:Con_FFC_30_2.0mm" H 6100 2900 50  0001 C CNN
+F 2 "custom:FFC_30_GCT" H 6100 2900 50  0001 C CNN
 F 3 "~" H 6100 2900 50  0001 C CNN
 	1    6100 2900
 	-1   0    0    1   
@@ -261,4 +261,38 @@ Text GLabel 4400 2300 2    50   Input ~ 0
 5V
 Text GLabel 4400 3300 2    50   Input ~ 0
 GND
+Text GLabel 4400 2400 2    50   Input ~ 0
+CAPS
+Text GLabel 5150 5100 0    50   Input ~ 0
+CAPS
+$Comp
+L Device:R R3
+U 1 1 5ECD2990
+P 5450 5100
+F 0 "R3" V 5243 5100 50  0000 C CNN
+F 1 "R" V 5334 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5380 5100 50  0001 C CNN
+F 3 "~" H 5450 5100 50  0001 C CNN
+	1    5450 5100
+	0    1    1    0   
+$EndComp
+Text GLabel 6850 5100 2    50   Input ~ 0
+GND
+$Comp
+L Device:LED D1
+U 1 1 5ECD3ABB
+P 6250 5100
+F 0 "D1" H 6243 4845 50  0000 C CNN
+F 1 "LED" H 6243 4936 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6250 5100 50  0001 C CNN
+F 3 "~" H 6250 5100 50  0001 C CNN
+	1    6250 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 5100 5300 5100
+Wire Wire Line
+	5600 5100 6100 5100
+Wire Wire Line
+	6400 5100 6850 5100
 $EndSCHEMATC
