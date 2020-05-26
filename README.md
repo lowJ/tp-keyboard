@@ -1,11 +1,17 @@
 # tp-keyboard
-Goal: Create a desktop usb keyboard using a keyboard extracted from a lenovo thinkpad l420.
+The goal of this project is to make a useable desktop keyboard from the keyboard of the ThinkPad L420. I will be using qmk firmware, which is a popular tool for programming custom keyboards. I decided to choose the teensy ++ controller because it has enough I/O for the L420 matrix. Also the teensy++ is compatible with qmk's PS/2 library, which is used for the trackpoint module.  
 
-Process:
+Current work:
+Create pcb for teensy and 30 pin FFC. 
+Start designing a case.
 
-I am going to use a teensy ++ 2.0 as the processor along with qmk, the firmware for the keyboard. In order to figure out wiring , I am creating a break out board for a teensy and a 30(28pins actually used, i think....) pin ffc connector.
+Progress made:
+Decoded the keyboard matrix of the keyboard.
+Tested trackpoint with qmk.
+Create a dev board to test on.
 
 ![alt text](https://i.imgur.com/ec5ur1S.jpg)
+This is the dev board I created and used to decode the matrix of the keyboard.
 
 ![alt text](https://i.imgur.com/eAW1w8l.jpg?1)
 ![alt text](https://i.imgur.com/65hynYD.jpg?1)
@@ -17,7 +23,7 @@ Qmk:
 
 
 Trackpoint:
-The trackpoint module has an 8 pin flex cable, which I desoldered from the back to expose the solderpads. Note: on my first attempt I accidently ripped off one of the soler pads. I ended up re ordering trackpoints from a ThinkPad r61. This turned out for the better because the r61 trackpoint pinout was documented online, and it also fit perfectly into the l420 keyboard. 
+The trackpoint module has an 8 pin flex cable, which I desoldered from the back to expose the solderpads. Note: on my first attempt I accidently ripped off one of the soler pads. I ended up re ordering trackpoints from a ThinkPad r61. This turned out for the better because the r61 trackpoint pinout was documented online, and it also fit perfectly into the l420's keyboard. 
 
 Clock pin needs to connect to PD2 and data pin needs to connect to PD5 of the teensy
 
