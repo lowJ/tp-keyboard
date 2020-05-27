@@ -2,6 +2,7 @@
 The goal of this project is to make a useable desktop keyboard from the keyboard of the ThinkPad L420. I will be using qmk firmware, which is a popular tool for programming custom keyboards. I decided to choose the teensy ++ controller because it has enough I/O for the L420 matrix. Also the teensy++ is compatible with qmk's PS/2 library, which is used for the trackpoint module.  
 
 Current work:
+Add trackpoint reset circuit to pcb
 Create pcb for teensy and 30 pin FFC. 
 Start designing a case.
 
