@@ -295,4 +295,83 @@ Wire Wire Line
 	5600 5100 6100 5100
 Wire Wire Line
 	6400 5100 6850 5100
+$Comp
+L Connector:Conn_01x08_Male J4
+U 1 1 5ECE5B13
+P 1050 4500
+F 0 "J4" H 1158 4981 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 1158 4890 50  0000 C CNN
+F 2 "custom:FFC_8_TE" H 1050 4500 50  0001 C CNN
+F 3 "~" H 1050 4500 50  0001 C CNN
+	1    1050 4500
+	1    0    0    -1  
+$EndComp
+Text GLabel 1250 4200 2    50   Input ~ 0
+5V
+Text GLabel 1250 4300 2    50   Input ~ 0
+GND
+Text GLabel 1250 4400 2    50   Input ~ 0
+CLK
+Text GLabel 1250 4500 2    50   Input ~ 0
+MB1
+Text GLabel 1250 4600 2    50   Input ~ 0
+MB2
+Text GLabel 1250 4700 2    50   Input ~ 0
+MB3
+Text GLabel 1250 4800 2    50   Input ~ 0
+RST
+Text GLabel 1250 4900 2    50   Input ~ 0
+DATA
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5ECEA093
+P 1150 5450
+F 0 "TP1" V 1345 5522 50  0000 C CNN
+F 1 "TestPoint" V 1254 5522 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1350 5450 50  0001 C CNN
+F 3 "~" H 1350 5450 50  0001 C CNN
+	1    1150 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5ECEAD01
+P 1150 5750
+F 0 "TP2" V 1345 5822 50  0000 C CNN
+F 1 "TestPoint" V 1254 5822 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1350 5750 50  0001 C CNN
+F 3 "~" H 1350 5750 50  0001 C CNN
+	1    1150 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5ECEB326
+P 1150 6050
+F 0 "TP3" V 1345 6122 50  0000 C CNN
+F 1 "TestPoint" V 1254 6122 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1350 6050 50  0001 C CNN
+F 3 "~" H 1350 6050 50  0001 C CNN
+	1    1150 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5ECEB777
+P 1150 6350
+F 0 "TP4" V 1345 6422 50  0000 C CNN
+F 1 "TestPoint" V 1254 6422 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1350 6350 50  0001 C CNN
+F 3 "~" H 1350 6350 50  0001 C CNN
+	1    1150 6350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1150 5450 2    50   Input ~ 0
+MB1
+Text GLabel 1150 5750 2    50   Input ~ 0
+MB2
+Text GLabel 1150 6050 2    50   Input ~ 0
+MB3
+Text GLabel 1150 6350 2    50   Input ~ 0
+RST
 $EndSCHEMATC
