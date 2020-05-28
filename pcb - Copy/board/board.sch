@@ -323,55 +323,94 @@ RST
 Text GLabel 1250 4900 2    50   Input ~ 0
 DATA
 $Comp
-L Connector:TestPoint TP1
-U 1 1 5ECEA093
-P 1150 5450
-F 0 "TP1" V 1345 5522 50  0000 C CNN
-F 1 "TestPoint" V 1254 5522 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1350 5450 50  0001 C CNN
-F 3 "~" H 1350 5450 50  0001 C CNN
-	1    1150 5450
-	0    -1   -1   0   
+L Device:C C1
+U 1 1 5ECF4187
+P 1400 2550
+F 0 "C1" H 1515 2596 50  0000 L CNN
+F 1 "2.2uF" H 1515 2505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1438 2400 50  0001 C CNN
+F 3 "~" H 1400 2550 50  0001 C CNN
+	1    1400 2550
+	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP2
-U 1 1 5ECEAD01
-P 1150 5750
-F 0 "TP2" V 1345 5822 50  0000 C CNN
-F 1 "TestPoint" V 1254 5822 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1350 5750 50  0001 C CNN
-F 3 "~" H 1350 5750 50  0001 C CNN
-	1    1150 5750
+L Device:R R4
+U 1 1 5ECF4908
+P 950 2550
+F 0 "R4" H 1020 2596 50  0000 L CNN
+F 1 "100K" H 1020 2505 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 880 2550 50  0001 C CNN
+F 3 "~" H 950 2550 50  0001 C CNN
+	1    950  2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2700 1150 2700
+Wire Wire Line
+	1150 2700 1150 2900
+Connection ~ 1150 2700
+Wire Wire Line
+	1150 2700 950  2700
+Wire Wire Line
+	1400 2400 1400 2300
+Wire Wire Line
+	950  2400 950  2300
+Text GLabel 1400 2300 1    50   Input ~ 0
+5V
+Text GLabel 950  2300 1    50   Input ~ 0
+GND
+Text GLabel 1150 2900 3    50   Input ~ 0
+RST
+Text GLabel 1100 6500 2    50   Input ~ 0
+RST
+Text GLabel 1100 6200 2    50   Input ~ 0
+MB3
+Text GLabel 1100 5900 2    50   Input ~ 0
+MB2
+Text GLabel 1100 5600 2    50   Input ~ 0
+MB1
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5ECEB777
+P 1100 6500
+F 0 "TP4" V 1295 6572 50  0000 C CNN
+F 1 "TestPoint" V 1204 6572 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1300 6500 50  0001 C CNN
+F 3 "~" H 1300 6500 50  0001 C CNN
+	1    1100 6500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5ECEB326
-P 1150 6050
-F 0 "TP3" V 1345 6122 50  0000 C CNN
-F 1 "TestPoint" V 1254 6122 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1350 6050 50  0001 C CNN
-F 3 "~" H 1350 6050 50  0001 C CNN
-	1    1150 6050
+P 1100 6200
+F 0 "TP3" V 1295 6272 50  0000 C CNN
+F 1 "TestPoint" V 1204 6272 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1300 6200 50  0001 C CNN
+F 3 "~" H 1300 6200 50  0001 C CNN
+	1    1100 6200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP4
-U 1 1 5ECEB777
-P 1150 6350
-F 0 "TP4" V 1345 6422 50  0000 C CNN
-F 1 "TestPoint" V 1254 6422 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1350 6350 50  0001 C CNN
-F 3 "~" H 1350 6350 50  0001 C CNN
-	1    1150 6350
+L Connector:TestPoint TP2
+U 1 1 5ECEAD01
+P 1100 5900
+F 0 "TP2" V 1295 5972 50  0000 C CNN
+F 1 "TestPoint" V 1204 5972 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1300 5900 50  0001 C CNN
+F 3 "~" H 1300 5900 50  0001 C CNN
+	1    1100 5900
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1150 5450 2    50   Input ~ 0
-MB1
-Text GLabel 1150 5750 2    50   Input ~ 0
-MB2
-Text GLabel 1150 6050 2    50   Input ~ 0
-MB3
-Text GLabel 1150 6350 2    50   Input ~ 0
-RST
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5ECEA093
+P 1100 5600
+F 0 "TP1" V 1295 5672 50  0000 C CNN
+F 1 "TestPoint" V 1204 5672 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1300 5600 50  0001 C CNN
+F 3 "~" H 1300 5600 50  0001 C CNN
+	1    1100 5600
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
