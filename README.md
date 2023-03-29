@@ -21,7 +21,7 @@ The Teensy++ runs QMK firmware to scan the keyboard matrix and read the signals 
 <br>
 
 ## Trackpoint
-The trackpoint module has an 8 pin FFC cable. This keyboard is  using a trackpoint module from a Thinkpad r61, since I ended up ripping off some of the solderpads on the original module while trying to determine the pinout. The r61 module pinout is documented already and it fits perfectly into the L420's keyboard.
+The trackpoint module has an 8 pin FFC cable.
 
 The modules clock pin needs to connect to PD2 and data pin needs to connect to PD5 of the teensy
 
